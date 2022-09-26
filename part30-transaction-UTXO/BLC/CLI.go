@@ -96,7 +96,7 @@ func (cli *CLI) Run() {
 			os.Exit(1)
 		}
 		fmt.Println(*flagFrom)
-		fmt.Println(flagTo)
+		fmt.Println(*flagTo)
 		fmt.Println(*flagAmount)
 		cli.addBlock([]*Transaction{})
 	}
